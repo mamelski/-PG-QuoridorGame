@@ -1,0 +1,50 @@
+﻿<SwapChainBackgroundPanel
+    x:Class="QuoridorClient.GamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QuoridorClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Tapped="GamePage_OnTapped"
+    KeyDown="Window_KeyDown">
+
+    <Grid >
+        <StackPanel Name="LoginPanel" MaxWidth="500" MaxHeight="300" Background="Black">
+            <TextBox Margin="10"  Name="LoginTextBox" PointerEntered="LoginTextBox_PointerEntered"/>
+            <TextBox Margin="10" Name="PasswordTextBox" PointerEntered="PasswordTextBox_PointerEntered"/>
+            <Button Margin="10" Click="Button_Click">Login</Button>
+        </StackPanel>
+        <StackPanel Name="ChatPanel" Width="500" Height="300" Background="Black" Margin="0" Visibility="Collapsed">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80*"></RowDefinition>
+                    <RowDefinition Height="20*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"></ColumnDefinition>
+                    <ColumnDefinition Width="30*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <ListView Name="MessagesListView" Grid.Column="0" Grid.Row="0" Background="DimGray" Margin="10" Height="200">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Message}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <ListView Name="PlayersListView" Grid.Column="1" Grid.Row="0" Background="DimGray" Margin="10" Height="200">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    
+                </ListView>
+                
+                <TextBox Name="MessageContentTextBox" Grid.Column="0" Grid.Row="1" Margin="10" PointerEntered="MessageContentTextBox_OnPointerEntered"></TextBox>
+                <Button Name="SendMessageButton" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Click="SendMessageButton_OnClick">Send</Button>
+                
+            </Grid>
+        </StackPanel>
+    </Grid>
+</SwapChainBackgroundPanel>

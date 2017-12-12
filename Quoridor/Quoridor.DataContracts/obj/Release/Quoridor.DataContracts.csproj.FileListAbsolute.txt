@@ -1,0 +1,4 @@
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.DataContracts\bin\Release\Quoridor.DataContracts.dll
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.DataContracts\bin\Release\Quoridor.DataContracts.pdb
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.DataContracts\obj\Release\Quoridor.DataContracts.dll
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.DataContracts\obj\Release\Quoridor.DataContracts.pdb

@@ -1,0 +1,1 @@
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.WindowsPhone\obj\Debug\QuoridorClient.WindowsPhone.csprojResolveAssemblyReference.cache

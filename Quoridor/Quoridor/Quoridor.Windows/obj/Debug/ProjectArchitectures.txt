@@ -1,0 +1,2 @@
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.DataContracts\Quoridor.DataContracts.csproj;neutral
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\Quoridor.Windows.csproj;neutral

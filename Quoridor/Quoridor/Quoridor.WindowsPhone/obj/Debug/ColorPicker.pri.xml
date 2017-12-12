@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="ColorPicker" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="ColorPicker">
+				<NamedResource name="ColorPicker.xr.xml" uri="ms-resource://ColorPicker/Files/ColorPicker/ColorPicker.xr.xml">
+					<Candidate type="Path">
+						<Value>ColorPicker\ColorPicker.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="colors.jpg" uri="ms-resource://ColorPicker/Files/ColorPicker/colors.jpg">
+					<Candidate type="Path">
+						<Value>ColorPicker\colors.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://ColorPicker/Files/ColorPicker/Themes/Generic.xbf">
+						<Candidate type="Path">
+							<Value>ColorPicker\Themes\Generic.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,0 +1,40 @@
+﻿<Page
+    x:Name="Page"
+    x:Class="Quoridor.UI.LocalGameLobbyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Quoridor.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:interop="using:Windows.UI.Xaml.Interop"
+    xmlns:model="using:Quoridor.Model"
+    xmlns:colorPicker="using:ColorPicker"
+     xmlns:xc="using:Color_Picker"
+    mc:Ignorable="d"
+    DataContext="{Binding RelativeSource={RelativeSource Self}}">
+    <Page.Resources>
+        <DataTemplate x:Key="Type:DataTemplate">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox TextAlignment="Center" MinWidth="100" FontSize="32" Text="{Binding Path=Name, Mode=TwoWay}"></TextBox>
+                <ComboBox x:Name="typeComboBox" ItemsSource="{Binding ElementName=Page, Path=PlayerTypes}"  MinWidth="100" FontSize="26" SelectedItem="{Binding Path=PlayerType, Mode=TwoWay}"></ComboBox>
+                <ComboBox x:Name="posComboBox" ItemsSource="{Binding ElementName=Page, Path=PlayerStartingPositions}" MinWidth="100" FontSize="26" SelectedItem="{Binding Path=StartingPosition, Mode=TwoWay}"></ComboBox>
+                <xc:Clr_Pckr SelectedColor="{Binding Path=PawnColor, Mode=TwoWay}" />
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                <Button x:Name="AddButton" Content="Add a player" Click="AddButton_OnClick"></Button>
+                <Button x:Name="RemoveButton" Content="Remove last player" Click="RemoveButton_OnClick"></Button>
+                <Rectangle VerticalAlignment="Stretch" Width="1" Margin="10" Stroke="WhiteSmoke" />
+                <Button x:Name="StartButton" Content="Start game" Click="StartButton_OnClick"></Button>
+            </StackPanel>
+            <ItemsControl
+                ItemTemplate="{StaticResource Type:DataTemplate}"
+                ItemsSource="{Binding Path=Players}">
+            </ItemsControl>
+        </StackPanel>
+    </Grid>
+</Page>

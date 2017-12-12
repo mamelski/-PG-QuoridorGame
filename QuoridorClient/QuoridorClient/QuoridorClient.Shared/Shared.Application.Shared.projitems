@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>59573928-0cba-4fcf-9f15-161174329b5a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>QuoridorClient</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)AsyncHelpers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Board.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\GameMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\GameState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\MessageType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\MoveDirection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\ResponseCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GamePage.xaml.cs">
+      <DependentUpon>GamePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Mocks\ServerMock.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\BoardEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\GameInvitation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\GameEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Player.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RestServiceConnector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ScreenManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\EmptyScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\GameBoard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\GameScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ServiceConnector\IServiceConnector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ServiceConnector\QuoridorService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ServiceConnector\ServiceConnectorMock.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Session.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SharedModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\GameEventParser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)GamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>

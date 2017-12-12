@@ -1,0 +1,13 @@
+Assets\Logo.scale-100.png
+Assets\SmallLogo.scale-100.png
+Assets\SplashScreen.scale-100.png
+Assets\StoreLogo.scale-100.png
+App.xbf
+Quoridor.Windows.xr.xml
+UI\Pages\AvailableUsersListPage.xbf
+UI\Pages\ChooseGameTypePage.xbf
+UI\Pages\GameOverPage.xbf
+UI\Pages\GamePage.xbf
+UI\Pages\LocalGameLobbyPage.xbf
+UI\Pages\LogInPage.xbf
+UI\Pages\StartPage.xbf

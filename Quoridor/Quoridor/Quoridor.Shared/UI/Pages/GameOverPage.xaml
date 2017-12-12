@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Quoridor.UI.GameOverPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox FontSize="100" IsReadOnly="True" FontFamily="Cambria" x:Name="RichTextBlock" />
+
+            <Button x:Name="tryAgainButton" Content="Try again" HorizontalAlignment="Center" Margin="0,10,0,0"
+                    Click="TryAgainButton_OnClick" />
+        </StackPanel>
+
+    </Grid>
+</Page>

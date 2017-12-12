@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SERAFIN</Machine>
+    <WindowsUser>Jakub</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>524df232-defe-4d4e-8b44-0e8318b16ad0</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>671DE2FE68B67339EF6B84F69D5CE1911F0E5C9A60E3FCB32B160583A88F92FF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>524df232-defe-4d4e-8b44-0e8318b16ad0_1.0.0.0_neutral__xt3psb39rghm0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>524df232-defe-4d4e-8b44-0e8318b16ad0_xt3psb39rghm0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>524df232-defe-4d4e-8b44-0e8318b16ad0</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Mateusz</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-16T22:31:32.657</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\bin\Debug\QuoridorClient.Windows.exe">
+      <PackagePath>QuoridorClient.Windows.exe</PackagePath>
+      <Modified>2015-11-17T00:22:28.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll">
+      <PackagePath>MonoGame.Framework.dll</PackagePath>
+      <Modified>2015-04-29T17:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-05-26T13:20:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XAudio2.dll">
+      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+      <Modified>2015-01-20T00:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+      <Modified>2015-01-20T00:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.Direct3D11.dll">
+      <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
+      <Modified>2015-01-20T00:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.Direct2D1.dll">
+      <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
+      <Modified>2015-01-20T00:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.DXGI.dll">
+      <PackagePath>SharpDX.DXGI.dll</PackagePath>
+      <Modified>2015-01-20T00:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XInput.dll">
+      <PackagePath>SharpDX.XInput.dll</PackagePath>
+      <Modified>2015-01-20T00:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.MediaFoundation.dll">
+      <PackagePath>SharpDX.MediaFoundation.dll</PackagePath>
+      <Modified>2015-01-20T00:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-10T13:28:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-10T13:28:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-10T13:28:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-10T13:28:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\Content\bin\WindowsStoreApp\font.xnb">
+      <PackagePath>Content\font.xnb</PackagePath>
+      <Modified>2015-11-15T12:18:57.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\bin\Debug\QuoridorClient.Windows.xr.xml">
+      <PackagePath>QuoridorClient.Windows.xr.xml</PackagePath>
+      <Modified>2015-11-16T21:38:52.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-11-16T22:31:22.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\bin\Debug\GamePage.xbf">
+      <PackagePath>GamePage.xbf</PackagePath>
+      <Modified>2015-11-16T22:31:22.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-11-17T00:21:00.985</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

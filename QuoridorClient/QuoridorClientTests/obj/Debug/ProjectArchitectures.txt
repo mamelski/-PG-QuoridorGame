@@ -1,0 +1,2 @@
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClient\QuoridorClient.Windows\QuoridorClient.Windows.csproj;neutral
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorClient\QuoridorClientTests\QuoridorClientTests.csproj;neutral

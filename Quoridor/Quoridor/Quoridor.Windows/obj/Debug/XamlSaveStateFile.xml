@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\jakub\onedrive\projekt grupowy\quoridor-projekt-grupowy\quoridor\quoridor\quoridor.windows\obj\debug\intermediatexaml\quoridor.windows.exe" HashGuid="c55d805a-e2e2-972d-ab62-83f47c7a27ca" />
+    <ReferenceAssembly PathName="c:\users\jakub\onedrive\projekt grupowy\quoridor-projekt-grupowy\quoridor\packages\colorpicker.1.0.2\lib\portable-win81+wpa81\colorpicker.dll" HashGuid="489ea7b4-f738-f262-a27c-1f2594b4e1fb" />
+    <ReferenceAssembly PathName="c:\users\jakub\onedrive\projekt grupowy\quoridor-projekt-grupowy\quoridor\packages\radialcolorpickercv.1.2.8\lib\color_picker.dll" HashGuid="de44424e-e205-5d5f-369f-fc6b0564c09b" />
+    <ReferenceAssembly PathName="c:\users\jakub\onedrive\projekt grupowy\quoridor-projekt-grupowy\quoridor\packages\newtonsoft.json.8.0.1-beta3\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="693e6cc6-61c6-0a41-d872-92b02f665f4b" />
+    <ReferenceAssembly PathName="c:\users\jakub\onedrive\projekt grupowy\quoridor-projekt-grupowy\quoridor\quoridor.datacontracts\bin\debug\quoridor.datacontracts.dll" HashGuid="ae111b76-183a-bd4a-ccc5-8b63458e5efd" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

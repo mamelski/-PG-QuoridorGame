@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SERAFIN</Machine>
+    <WindowsUser>Jakub</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>7099b9df-5cda-4a84-8f3b-8828d34bfc8a</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>356B13055C75F14016D3105A29F54C2F77604CBE550E686B6244902EFDF8990E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>7099b9df-5cda-4a84-8f3b-8828d34bfc8a_1.0.0.11_neutral__xt3psb39rghm0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>7099b9df-5cda-4a84-8f3b-8828d34bfc8a_xt3psb39rghm0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>7099b9df-5cda-4a84-8f3b-8828d34bfc8a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Mateusz</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.11</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-12T13:31:09.393</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\Quoridor.Windows.exe">
+      <PackagePath>Quoridor.Windows.exe</PackagePath>
+      <Modified>2016-01-12T13:31:09.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\packages\Newtonsoft.Json.8.0.1-beta3\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-12-20T18:35:07.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.DataContracts\bin\Debug\Quoridor.DataContracts.dll">
+      <PackagePath>Quoridor.DataContracts.dll</PackagePath>
+      <Modified>2016-01-11T16:02:06.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-13T10:32:21.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-13T10:32:21.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-13T10:32:21.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-13T10:32:21.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\Quoridor.Windows.xr.xml">
+      <PackagePath>Quoridor.Windows.xr.xml</PackagePath>
+      <Modified>2016-01-11T13:08:16.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-01-11T15:49:58.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\UI\AvailableUsersListPage.xbf">
+      <PackagePath>UI\AvailableUsersListPage.xbf</PackagePath>
+      <Modified>2016-01-11T15:49:58.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\UI\ChooseGameTypePage.xbf">
+      <PackagePath>UI\ChooseGameTypePage.xbf</PackagePath>
+      <Modified>2016-01-11T15:49:58.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\UI\GameOverPage.xbf">
+      <PackagePath>UI\GameOverPage.xbf</PackagePath>
+      <Modified>2016-01-11T15:49:58.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\UI\GamePage.xbf">
+      <PackagePath>UI\GamePage.xbf</PackagePath>
+      <Modified>2016-01-11T15:49:58.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\UI\MainPage.xbf">
+      <PackagePath>UI\MainPage.xbf</PackagePath>
+      <Modified>2016-01-11T15:49:58.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-01-12T13:31:09.340</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

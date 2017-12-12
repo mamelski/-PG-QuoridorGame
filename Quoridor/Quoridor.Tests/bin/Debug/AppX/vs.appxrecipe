@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SERAFIN</Machine>
+    <WindowsUser>Jakub</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ab203941-b750-4f6b-b804-ff5c29867b52</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.Tests\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>7B5B80384E7FAEECD580DA4F62B0F80872BF802C7630E3E742B7B830B4B22C7F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>ab203941-b750-4f6b-b804-ff5c29867b52_1.0.0.0_neutral__xt3psb39rghm0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>ab203941-b750-4f6b-b804-ff5c29867b52_xt3psb39rghm0!vstest.executionengine.App</RegisteredUserModeAppID>
+    <RegisteredPackageID>ab203941-b750-4f6b-b804-ff5c29867b52</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Mateusz</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.Tests\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-01-11T13:08:21.216</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.Tests\bin\Debug\Quoridor.Tests.dll">
+      <PackagePath>Quoridor.Tests.dll</PackagePath>
+      <Modified>2016-01-11T13:08:19.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.DataContracts\bin\Debug\Quoridor.DataContracts.dll">
+      <PackagePath>Quoridor.DataContracts.dll</PackagePath>
+      <Modified>2016-01-11T13:08:13.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.Tests\bin\Debug\Quoridor.Tests.pdb">
+      <PackagePath>Quoridor.Tests.pdb</PackagePath>
+      <Modified>2016-01-11T13:08:19.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.DataContracts\bin\Debug\Quoridor.DataContracts.pdb">
+      <PackagePath>Quoridor.DataContracts.pdb</PackagePath>
+      <Modified>2016-01-11T13:08:13.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\Quoridor.Windows.pdb">
+      <PackagePath>Quoridor.Windows.pdb</PackagePath>
+      <Modified>2016-01-11T13:08:17.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\14.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AppContainer.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AppContainer.dll</PackagePath>
+      <Modified>2015-07-06T23:51:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\14.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll</PackagePath>
+      <Modified>2015-07-06T23:51:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\packages\NUnit.3.0.0\lib\portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10\nunit.framework.dll">
+      <PackagePath>nunit.framework.dll</PackagePath>
+      <Modified>2015-12-20T18:35:07.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-12-20T18:35:07.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\Quoridor.Windows.exe">
+      <PackagePath>Quoridor.Windows.exe</PackagePath>
+      <Modified>2016-01-11T13:08:17.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\14.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Common.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Common.dll</PackagePath>
+      <Modified>2015-11-19T20:31:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\14.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Core.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Core.dll</PackagePath>
+      <Modified>2015-07-06T23:51:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\14.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.dll</PackagePath>
+      <Modified>2015-07-06T23:51:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\14.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</PackagePath>
+      <Modified>2015-11-19T20:31:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\14.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll</PackagePath>
+      <Modified>2015-07-06T23:51:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\14.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Utilities.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Utilities.dll</PackagePath>
+      <Modified>2015-11-19T20:31:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\14.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.exe">
+      <PackagePath>vstest.executionengine.appcontainer.exe</PackagePath>
+      <Modified>2015-07-06T23:51:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\14.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.x86.exe">
+      <PackagePath>vstest.executionengine.appcontainer.x86.exe</PackagePath>
+      <Modified>2015-07-06T23:51:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.Tests\Images\UnitTestLogo.scale-100.png">
+      <PackagePath>Images\UnitTestLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-13T10:32:21.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.Tests\Images\UnitTestSmallLogo.scale-100.png">
+      <PackagePath>Images\UnitTestSmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-13T10:32:21.565</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.Tests\Images\UnitTestSplashScreen.scale-100.png">
+      <PackagePath>Images\UnitTestSplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-13T10:32:21.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.Tests\Images\UnitTestStoreLogo.scale-100.png">
+      <PackagePath>Images\UnitTestStoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-13T10:32:21.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2015-12-13T10:32:21.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2015-12-13T10:32:21.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2015-12-13T10:32:21.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <Modified>2015-12-13T10:32:21.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\Quoridor.Windows.xr.xml">
+      <PackagePath>Quoridor.Windows.xr.xml</PackagePath>
+      <Modified>2016-01-11T13:08:16.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-01-11T13:08:16.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\UI\AvailableUsersListPage.xbf">
+      <PackagePath>UI\AvailableUsersListPage.xbf</PackagePath>
+      <Modified>2016-01-11T13:08:16.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\UI\ChooseGameTypePage.xbf">
+      <PackagePath>UI\ChooseGameTypePage.xbf</PackagePath>
+      <Modified>2016-01-11T13:08:16.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\UI\GameOverPage.xbf">
+      <PackagePath>UI\GameOverPage.xbf</PackagePath>
+      <Modified>2016-01-11T13:08:16.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\UI\GamePage.xbf">
+      <PackagePath>UI\GamePage.xbf</PackagePath>
+      <Modified>2016-01-11T13:08:16.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Debug\UI\MainPage.xbf">
+      <PackagePath>UI\MainPage.xbf</PackagePath>
+      <Modified>2016-01-11T13:08:16.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\Quoridor\Quoridor.Tests\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-01-11T13:08:21.008</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

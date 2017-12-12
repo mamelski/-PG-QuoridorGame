@@ -1,0 +1,14 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:10] Emulator config file set to C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorServer\QuoridorServer\csx\Debug\roles\QuoridorService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:10] DiagnosticsStoreRootPath set to: C:\Users\Jakub\AppData\Local\dftmp\Resources\a26876c8-879d-4abe-92fc-1639667640b4
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:10] Loading config file: C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorServer\QuoridorServer\csx\Debug\roles\QuoridorService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:10] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:10] Emulator config file set to C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\QuoridorServer\QuoridorServer\csx\Debug\roles\QuoridorService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:10] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:10] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:10] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:10] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:11] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:11] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:11] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:11] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [2016-02-10 22:07:11] Resetting DiagnosticPlugin

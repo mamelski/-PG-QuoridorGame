@@ -1,0 +1,8 @@
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\SendObjectTest\SendObjectTest\SendObjectTest\bin\Debug\SendObjectTest.exe.config
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\SendObjectTest\SendObjectTest\SendObjectTest\bin\Debug\SendObjectTest.exe
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\SendObjectTest\SendObjectTest\SendObjectTest\bin\Debug\SendObjectTest.pdb
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\SendObjectTest\SendObjectTest\SendObjectTest\obj\Debug\SendObjectTest.csprojResolveAssemblyReference.cache
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\SendObjectTest\SendObjectTest\SendObjectTest\obj\Debug\SendObjectTest.exe
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\SendObjectTest\SendObjectTest\SendObjectTest\obj\Debug\SendObjectTest.pdb
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\SendObjectTest\SendObjectTest\SendObjectTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jakub\OneDrive\Projekt Grupowy\quoridor-projekt-grupowy\SendObjectTest\SendObjectTest\SendObjectTest\bin\Debug\Newtonsoft.Json.xml

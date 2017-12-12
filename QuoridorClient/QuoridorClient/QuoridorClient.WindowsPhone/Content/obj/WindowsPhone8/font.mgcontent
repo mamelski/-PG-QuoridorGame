@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Jakub/OneDrive/Projekt Grupowy/quoridor-projekt-grupowy/QuoridorClient/QuoridorClient/QuoridorClient.Shared/Content/font.spritefont</SourceFile>
+  <SourceTime>2015-05-10T15:28:12+02:00</SourceTime>
+  <DestFile>C:/Users/Jakub/OneDrive/Projekt Grupowy/quoridor-projekt-grupowy/QuoridorClient/QuoridorClient/QuoridorClient.WindowsPhone/Content/bin/WindowsPhone8/font.xnb</DestFile>
+  <DestTime>2015-11-16T23:31:24.3051927+01:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2015-04-29T19:14:44+02:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2015-04-29T19:14:44+02:00</ProcessorTime>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

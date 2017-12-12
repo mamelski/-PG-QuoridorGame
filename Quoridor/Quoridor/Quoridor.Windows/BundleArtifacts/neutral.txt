@@ -1,0 +1,2 @@
+MainPackage=D:\PawelTroka-Projects\ProjektGrupowy\Quoridor\Quoridor\Quoridor.Windows\bin\Release\Quoridor.Windows_1.0.0.11_AnyCPU.appx
+SymbolPackage=D:\PawelTroka-Projects\ProjektGrupowy\Quoridor\Quoridor\Quoridor.Windows\AppPackages\Quoridor.Windows_1.0.0.11_Test\Quoridor.Windows_1.0.0.11_AnyCPU.appxsym

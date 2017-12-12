@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>0ee41fe9-9edf-40f6-b258-30a5d8355028</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Quoridor</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Collections\TrulyObservableCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\BoardElementTypeToColorConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\EnumTypeToListConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\HeightAsWindowPercentageConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\PercentageConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\WidthAsWindowPercentageConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\BoardElementType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\GameLocation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\GameType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\MoveDirection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\PlayerStartingPosition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\PlayerType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\EventRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\Events.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\QuoridorEventDispatcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\WebEventDispatcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\AiPlayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Board.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\BoardArray.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\BoardField.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Game.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\HumanPlayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\InvitationListItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\PlayerParameters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\QuoridorPlayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ServiceWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\QuoridorWebService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\BoardSizeProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Pages\AvailableUsersListPage.xaml.cs">
+      <DependentUpon>AvailableUsersListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Pages\ChooseGameTypePage.xaml.cs">
+      <DependentUpon>ChooseGameTypePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Pages\GameOverPage.xaml.cs">
+      <DependentUpon>GameOverPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Pages\GamePage.xaml.cs">
+      <DependentUpon>GamePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Pages\LocalGameLobbyPage.xaml.cs">
+      <DependentUpon>LocalGameLobbyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Pages\LogInPage.xaml.cs">
+      <DependentUpon>LogInPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Pages\StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Panels\Dock.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Panels\DockPanel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Panels\ProportionallyStretchingPanel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\Panels\UniformGrid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\TemplateSelectors\GameFieldTypeTemplateSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UI\TemplateSelectors\TypedTemplateSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\JsonParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\RandomProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Validation\BasicValidator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Validation\MoveValidator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Validation\WallValidator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)UI\Pages\AvailableUsersListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)UI\Pages\ChooseGameTypePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)UI\Pages\GameOverPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)UI\Pages\GamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)UI\Pages\LocalGameLobbyPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)UI\Pages\LogInPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)UI\Pages\StartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>

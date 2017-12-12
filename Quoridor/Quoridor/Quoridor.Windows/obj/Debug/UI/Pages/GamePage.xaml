@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="Quoridor.UI.GamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Quoridor.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:converters="using:Quoridor.Converters"
+    mc:Ignorable="d"
+    DataContext="{Binding RelativeSource={RelativeSource Self}}">
+
+    <Page.Resources>
+        <converters:BoardElementTypeToColorConverter x:Name="BoardElementTypeToColorConverter" />
+        <local:BoardSizeProvider x:Name="boardSizeProvider" />
+
+        <DataTemplate x:Key="GameBoardViewHorizontalWall">
+            <Rectangle x:ConnectionId='4' x:Name="RectangleHW"  Width="{Binding Source={StaticResource boardSizeProvider}, Path=FieldSize, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" Height="{Binding Source={StaticResource boardSizeProvider}, Path=WallSize, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" Fill="{Binding Converter={StaticResource BoardElementTypeToColorConverter}}"                     ></Rectangle>
+        </DataTemplate>
+
+        <DataTemplate x:Key="GameBoardViewVerticalWall">
+            <Rectangle x:ConnectionId='3' x:Name="RectangleVW"  Width="{Binding Source={StaticResource boardSizeProvider}, Path=WallSize, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" Height="{Binding Source={StaticResource boardSizeProvider}, Path=FieldSize, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" Fill="{Binding Converter={StaticResource BoardElementTypeToColorConverter}}"                     ></Rectangle>
+        </DataTemplate>
+
+
+        <DataTemplate x:Key="GameBoardViewMicroWall">
+            <Rectangle x:ConnectionId='2' x:Name="RectangleMW"  Width="{Binding Source={StaticResource boardSizeProvider}, Path=WallSize, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" Height="{Binding Source={StaticResource boardSizeProvider}, Path=WallSize, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" Fill="{Binding Converter={StaticResource BoardElementTypeToColorConverter}}"                     ></Rectangle>
+        </DataTemplate>
+
+        <DataTemplate x:Key="GameBoardViewItem">
+            <Rectangle x:ConnectionId='1' x:Name="RectangleI"  Width="{Binding Source={StaticResource boardSizeProvider}, Path=FieldSize, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" Height="{Binding Source={StaticResource boardSizeProvider}, Path=FieldSize, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" Fill="{Binding Converter={StaticResource BoardElementTypeToColorConverter}}"                     ></Rectangle>
+        </DataTemplate>
+
+        <local:GameFieldTypeTemplateSelector x:Name="FieldTypeTemplateSelector" HorizontalWallTemplate="{StaticResource GameBoardViewHorizontalWall}" MicroWallTemplate="{StaticResource GameBoardViewMicroWall}" NormalTemplate="{StaticResource GameBoardViewItem}" VerticalWallTemplate="{StaticResource GameBoardViewVerticalWall}" />
+
+        <DataTemplate x:Key="GameBoardView">
+            <ItemsControl ItemsSource="{Binding}" ItemTemplateSelector="{StaticResource FieldTypeTemplateSelector}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="StatusTextBox" IsReadOnly="True" Grid.Column="0" Grid.Row="1" />
+        <ItemsControl Grid.Column="0" Grid.Row="0"  VerticalAlignment="Center" HorizontalAlignment="Center" ItemsSource="{Binding Path=BoardMatrix}" x:Name="GameBoardView" ItemTemplate="{StaticResource GameBoardView}"/>
+    </Grid>
+</Page>
+
